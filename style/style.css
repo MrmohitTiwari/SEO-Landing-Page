@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    width:100vw;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+  
+}
+/* **************************************header Part******************************  */
+.logo-cont{
+    margin-left: 120px;
+  
+}
+.logo-cont img{
+    height: 88% ;
+    width: 90%;
+    cursor: pointer;
+}
+.nav-bar{
+    display: flex;
+    /* background-color: #bddb28; */
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.list-item{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    /* align-self: flex-start; */
+    margin-top: 8px;
+    margin-right: 250px;
+   
+}
+.list-item ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+
+}
+.list-item ul li a:hover{
+    font-weight: 900;
+}
+.contact-button button{
+    border:none;
+    background-color: #5955b3;
+    font-size: 16px;
+    padding: 14px 25px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    margin-right: 94px;
+    cursor: pointer ;
+   
+}
+/*************************************************** main-Section **************************************/
+.main-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.text-cont{
+    margin-top: 130px;
+    margin-left: 120px;
+  justify-self: center;
+ 
+  
+}
+.text-cont h1{
+    font-size: 55px;
+    color:#3c2e60;
+    font-family: "Poppins";
+
+}
+.text-cont h1 span{
+    color: #5c58b4;
+
+}
+.text-cont p{
+    margin-top: 35px;
+}
+.text-cont  button{
+    margin-top: 40px;
+    border:none;
+    background-color: #5955b3;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    margin-right: 50px;
+    cursor: pointer ;
+    width:38%;
+   
+}
+.main-right-photo img{
+    width: 81%;
+    height:85%;
+    margin-left: 89px;
+    margin-top: 69px;
+
+}
